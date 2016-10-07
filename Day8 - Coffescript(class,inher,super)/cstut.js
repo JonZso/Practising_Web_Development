@@ -16,8 +16,8 @@
       this.food = food;
     }
 
-    Animal.prototype.move = function(noise) {
-      return alert(this.name + (" Makes noise {super: " + noise + "} and likes to eat   >>>") + this.food);
+    Animal.prototype.move = function(animal, noise) {
+      return alert(this.name + " is a " + animal + " and they say: \"" + noise + "\" they're favourite food is: " + this.food);
     };
 
     return Animal;
@@ -32,7 +32,7 @@
     }
 
     Snake.prototype.move = function() {
-      return Snake.__super__.move.call(this, "Sss");
+      return Snake.__super__.move.call(this, "Snake", "ssssss");
     };
 
     return Snake;
@@ -47,25 +47,25 @@
     }
 
     Horse.prototype.move = function() {
-      return Horse.__super__.move.call(this, "Nehh");
+      return Horse.__super__.move.call(this, "Horse", "Neygh!");
     };
 
-    Horse.prototype.sing = function() {
-      return alert("woohooo!");
+    Horse.prototype.wish = function() {
+      return alert("{@name} wished for more " + this.food);
     };
 
     return Horse;
 
   })(Animal);
 
-  sam = new Snake("Sammy the Python");
+  sam = new Snake("Sammy", "RubyGems");
 
-  tom = new Horse("Tommy the Palomino", "breadsticks");
+  tom = new Horse("Tommy", "Javascript");
 
   sam.move();
 
   tom.move();
 
-  tom.sing();
+  tom.wish();
 
 }).call(this);

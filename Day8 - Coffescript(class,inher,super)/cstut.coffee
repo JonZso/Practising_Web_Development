@@ -11,30 +11,29 @@ csOutput.insertAdjacentHTML('beforeend',
 
 class Animal
   constructor: (@name, @food) ->
-
  
 
-  move: (noise) ->
-    alert @name + " Makes noise {super: #{noise}} and likes to eat   >>>"+ @food
+  move: (animal,noise) ->
+    # alert @name + " Makes noise {super: #{noise}} and likes to eat   >>>"+ @food
+    alert "#{@name} is a #{animal} and they say: \"#{noise}\" they're favourite food is: #{@food}"
 
 class Snake extends Animal
   move: ->
     # alert "Slithering..."
-    super "Sss"
+    super "Snake","ssssss"
 
 class Horse extends Animal
   move: ->
     # alert "Galloping..."
-    super "Nehh"
-
-   sing: ->
-   	alert "woohooo!"
+    super "Horse","Neygh!"
+   wish: ->
+   	alert "{@name} wished for more #{@food}"
     
 
-sam = new Snake "Sammy the Python"
-tom = new Horse "Tommy the Palomino", "breadsticks"
+sam = new Snake "Sammy","RubyGems"
+tom = new Horse "Tommy","Javascript"
 
 sam.move()
 tom.move()
-tom.sing()
+tom.wish()
 
