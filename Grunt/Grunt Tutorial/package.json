@@ -1,0 +1,13 @@
+{
+  "name": "GruntPractice",
+  "version": "1.0.0",
+  "description": "\"Website about grunt related stuff\"",
+  "main": "index.js",
+  "author": "Jon Russell",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-uglify": "^2.0.0"
+  }
+}

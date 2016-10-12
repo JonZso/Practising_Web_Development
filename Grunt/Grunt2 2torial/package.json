@@ -1,0 +1,13 @@
+{
+  "name": "jons_js_to_cs",
+  "version": "1.0.0",
+  "description": "\"gonna convert js to cs\"",
+  "main": "index.js",
+  "author": "Jon R",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-js2coffee": "^0.3.0"
+  }
+}
