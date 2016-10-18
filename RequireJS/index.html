@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RequireJS Tutorial</title>
+</head>
+
+
+
+<body>
+	<script data-main="js/config" src="require.js"></script>
+	<!-- <script> alert("Before");</script> -->
+	<script>
+		require(['config'], function(){
+				require(['customScripts/jqueryFile']);
+		});
+	</script>
+
+
+</body>
+</html>
