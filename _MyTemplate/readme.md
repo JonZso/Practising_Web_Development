@@ -1,34 +1,15 @@
 #Little Template I Created
 
-dependencies:
-		"underscore": "^1.8.3",
-		"backbone": "^1.3.3",
-		"express": "~4.13.4"
+Run "GET_NODE_MODULES"
+and edit gruntfile.js if needed.
 
-devDependencies:
-		"grunt-contrib-cssmin": "^1.0.2",
-		"grunt-contrib-uglify": "^2.0.0"
-	
 
-#TREE:
-│   GET_NODE_MODULES.bat
-│   gruntfile.js
-│   package.json
-│   Readme.txt
-│
-├───HTML
-│       index.html
-│
-├───node_modules
-│       library will be here
-│
-└───style
-    ├───css
-    │       background.css
-    │
-    ├───images
-    │       Place Your Images Here
-    │
-    └───js
-            main.js
-            Place Your javascript Here.txt
+dependencies | devDependencies
+------------ | -------------
+underscore: v1.8.3 | grunt-contrib-cssmin: v1.0.2
+backbone: v1.3.3 | grunt-contrib-uglify: v2.0.0 
+express: v4.13.4 | 
+
+
+
+![Tree Of Folder](http://puu.sh/rOdAy/2f32393d32.png)
