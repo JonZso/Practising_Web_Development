@@ -1,0 +1,246 @@
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+
+body{
+
+
+    background-image: url("http://i.imgur.com/3RO4uQk.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; 
+    background-position: center;
+
+
+}
+
+.Header {
+  position: absolute;
+    height: 40px;
+    width: 100%;
+      top:0;
+    left:0;
+    
+  background-color: white;
+
+}
+.Footer {
+  position: absolute;
+    height: 40px;
+    width: 100%;
+      bottom: 0px;
+    left:0;
+    
+  background-color: white;
+
+}
+/**{
+    border: 1px dashed red;
+}*/
+#MyFace {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+   
+    padding-top: 5px;
+    
+}
+
+
+
+#ProfileCard {
+    background: rgba(255, 255, 255, 0.3);
+     width: 260px;
+    height: 325px;
+    /*border: 0.5px solid black;*/
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+        box-shadow: 5px 5px 40px rgb(31, 31, 31);
+z-index: 1;
+}
+
+.Card_Name {
+    font-size: 30px;
+    font-family: "myFont";
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* margin-left: 15%; */
+
+}
+
+.Card_me{
+    font-size: 18px;
+    font-family: "myFont";
+    text-align: center;
+    color: rgb(31, 31, 31);
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.card_me_bio{
+    font-size: small;
+    position: relative;
+    font-family: myFont;
+        margin-top: -10px;
+   
+    
+}
+
+.Twit-Twoo {
+    font-size: 15px;
+    font-family: myFont;
+    float: right;
+   position: absolute; 
+    bottom: 0;
+    right: 0;
+    padding-right: 5px;
+}
+
+
+@font-face {
+    font-family: 'myFont'; /*a name to be used later*/
+    src: url('fonts/MYRIADPRO.OTF'); /*URL to font*/
+}
+
+
+.sidenav {
+    /* height: 100%; */
+    width: 0;
+    position: absolute;
+    /* z-index: 0; */
+    top: 40px;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* padding-top: 60px; */
+    box-shadow: 5px 5px 5px #888888;
+z-index: 1;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    /*color: #818181;*/
+    color: black;
+    display: block;
+    transition: 0.3s
+
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.menuItems{
+height: 75%;
+/*border: 2px solid red;*/
+
+
+
+}
+
+.littleCuteIcons{
+    /*border: 1px solid green;*/
+    /* height: 30%; */
+    font-family: myFont;
+    /* float: right; */
+    height: 10%;
+  /*  bottom: 0px;
+    right: 0px;
+    position: absolute;*/
+    color: green;
+}
+
+
+.littleCuteIcons a{
+    position: absolute;
+      bottom: 0px;
+      right: 0px;
+      /*color: red;*/
+      text-decoration: none;
+      color: red;
+}
+
+.test{
+
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 0;
+}
+
+.card_me_bio_about{
+
+    position: relative;
+    font-family: myFont;
+        margin-top: -10px;
+      
+}
+
+#ProfileCard_about_me {
+    background: rgba(255, 255, 255, 0.3);
+     width: 350px;
+    height: 250px;
+    /*border: 0.5px solid black;*/
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+        box-shadow: 5px 5px 40px rgb(31, 31, 31);
+z-index: 1;
+}
+
+#ProfileCard_about_me_contact{
+        background: rgba(255, 255, 255, 0.3);
+     width: 300px;
+    height: 200px;
+    /*border: 0.5px solid black;*/
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+        box-shadow: 5px 5px 40px rgb(31, 31, 31);
+z-index: 1;
+
+}
+.card_me_bio_contact_me{
+      font-size: 20px;
+    font-family: "myFont";
+    text-align: center;
+    color: rgb(31, 31, 31);
+        line-height: 30px;
+ 
+
+ }
+ .card_me_bio_contact_me a{ 
+    text-decoration: none;
+}

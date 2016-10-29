@@ -1,0 +1,11 @@
+{
+  "name": "jons_own_practice",
+  "version": "1.0.0",
+  "description": "using tutorialspoint.com to practice these tutorials",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon russell",
+  "license": "ISC"
+}
