@@ -1,0 +1,15 @@
+#start_box{
+    font-size: 30px;	
+    background-color: #e5eca7;
+    height: 200px;
+    width: 250px;
+    border: 1px solid;
+}
+
+#end_box{
+	    font-size: 30px;	
+	background-color: #a7e7ec;
+    height: 200px;
+    width: 250px;
+    border: 1px solid;
+}

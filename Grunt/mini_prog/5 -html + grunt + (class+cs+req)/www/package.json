@@ -1,0 +1,25 @@
+{
+  "name": "www",
+  "version": "1.0.0-2",
+  "description": "pls work",
+  "author": "Jon",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "requirejs": "^2.1.22"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-bumpx": "~0.1.5",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-exec": "~0.4.0",
+    "grunt-replace": "~0.4.4",
+    "grunt-shell": "~0.2.1",
+    "requirejs": "~2.1.8",
+    "underscore": "~1.5.2"
+  }
+}
