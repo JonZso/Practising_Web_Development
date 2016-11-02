@@ -80,7 +80,7 @@ compiler_file.write("""echo off
 cls
 echo Installing Node Modules from package.json...
 @start npm update
-TIMEOUT /T 15 /NOBREAK
+TIMEOUT /T 21 /NOBREAK
 @echo "Waiting for modules to install before running grunt file..
 @start grunt build
 """)
