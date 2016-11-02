@@ -108,7 +108,11 @@ mainjs_file.write("""$(document).ready ->
 compiler_file.write("""echo off
 cls
 echo Installing Node Modules from package.json...
-npm update""")
+@start npm update
+TIMEOUT /T 15 /NOBREAK
+@echo "Waiting for modules to install before running grunt file..
+@start grunt build
+""")
 
 readme_file.write("""
 For grunt..
